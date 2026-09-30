@@ -1,7 +1,8 @@
 .info{
     text-align: center;
     margin: 4px;
-    background-color: rgb(40, 42, 39);
+    background-color: #b7caae;
+    color: rgb(0, 0, 0);
 }
 .score-card{
     padding: 16px;
@@ -17,7 +18,7 @@
 .score-card > *{
     padding: 8px 16px;
     color: black;
-    background-color: rgb(175, 169, 169);
+    background-color: rgb(196, 240, 205);
     flex: 1;
     text-align: center;
 }
@@ -33,7 +34,7 @@
 }
 
 .card {
-    background-color: rgb(222, 223, 216);
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 8px 16px;
     border-radius: 8px;
