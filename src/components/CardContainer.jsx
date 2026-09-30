@@ -17,7 +17,6 @@ function CardContainer({movie, increaseScore, resetScore}){
     }
 
     function displayCards(id){
-        console.log(id,clickedCards);
         if(clickedCards.includes(id)){
             resetScore();
             setClickedCards([]);
