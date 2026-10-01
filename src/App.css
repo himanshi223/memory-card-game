@@ -59,6 +59,24 @@
     color: black;
     text-align: center;
 }
+
+@media screen and (max-width: 1200px){
+    .card-container {
+        max-width: 80vw;
+        gap: 16px;
+    }
+    .card {
+        padding: 8px;
+    }
+    .card>img {
+        height: 180px;
+        width: 150px;
+    }
+    .card>p{
+        width: 150px;
+    }
+}
+
 @media screen and (max-width: 800px){
     .score-card {
         padding: 4px;
@@ -79,27 +97,29 @@
         gap: 8px;
     }
     .card>img{
-        height: 40px;
-        width: 30px;
+        height: 100px;
+        width: 80px;
     }
     .card>p{
         font-size: 14px;
         width: 100px
     }
 }
-@media screen and (max-width: 1200px){
-    .card-container {
-        max-width: 80vw;
-        gap: 16px;
+
+@media screen and (max-width:400px){
+    .info {
+        font-size: 0.9rem;
     }
     .card {
-        padding: 8px;
+        padding: 4px 2px;
+        gap: 2px;
     }
-    .card>img {
-        height: 180px;
-        width: 150px;
+    .card > img {
+        height: 80px;
+        width: 60px;
     }
     .card>p{
-        width: 150px;
+        font-size: 0.6rem;
     }
 }
+
